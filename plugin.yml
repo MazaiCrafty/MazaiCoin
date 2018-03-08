@@ -1,0 +1,11 @@
+main: jp\mazaicrafty\pmmp\MazaiCoin\main
+name: MazaiCoin
+author: MazaiCrafty
+version: 1.0
+api:
+- 3.0.0-ALPHA11
+- 3.0.0-ALPHA12
+load: POSTWORLD
+commands:
+ vote:
+  description: vote
