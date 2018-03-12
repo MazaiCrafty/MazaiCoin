@@ -140,7 +140,7 @@ class main extends PluginBase implements Listener{
         }
     }
 
-    public function takeCoin($player, $amount){
+    public function reduceCoin($player, $amount){
         $name = $player;
         if (!$this->manager->exists($name)){
             $this->manager->set($name, 0);
